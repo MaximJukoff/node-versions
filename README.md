@@ -11,5 +11,4 @@ Latest of LTS versions will be installed on the [virtual-environments](https://g
 ## Adding new versions
 We are trying to prepare packages for new versions of Node.js as soon as they are released. Please open an issue in [actions/virtual-environments](https://github.com/actions/virtual-environments) if any versions are missing.
 
-## Contribution
 Contributions are welcome! See [Contributor's Guide](./CONTRIBUTING.md) for more details about contribution process and code structure
