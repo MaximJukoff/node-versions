@@ -2,7 +2,19 @@ name: First option
 on:
   pull_request:
     types: [opened, edited, reopened]
+    paths-ignore:
+    - 'versions-manifest.json'
+    - 'LICENSE'
+    - '**.md'
+    branches:
+    - 'main'
   push:
+    paths-ignore:
+    - 'versions-manifest.json'
+    - 'LICENSE'
+    - '**.md'
+    branches:
+    - 'main'
 
 defaults:
   run:
