@@ -6,7 +6,7 @@ using module "./builders/nix-node-builder.psm1"
 Generate Node.js artifact..
 
 .DESCRIPTION
-Main script that creates instance of NodeBuilder and builds of Node.js using specified parameters.
+Main script that creates instance of NodeBuilder and builds of Node.js using specified parameters..
 
 .PARAMETER Version
 Required parameter. The version with which Node.js will be built.
