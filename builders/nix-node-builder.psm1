@@ -33,7 +33,7 @@ class NixNodeBuilder : NodeBuilder {
     [uri] GetBinariesUri() {
         <#
         .SYNOPSIS
-        Get base Node.js URI and return complete URI for Node.js installation executable..
+        Get base Node.js URI and return complete URI for Node.js installation executable.
         #>
 
         $base = $this.GetBaseUri()
