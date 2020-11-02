@@ -12,7 +12,7 @@ class NixNodeBuilder : NodeBuilder {
     The full name of platform for which Node.js should be built.
 
     .PARAMETER version
-    The version of Node.js that should be built.
+    The version of Node.js that should be built..
 
     #>
 
