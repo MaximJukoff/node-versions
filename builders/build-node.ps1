@@ -3,7 +3,7 @@ using module "./builders/nix-node-builder.psm1"
 
 <#
 .SYNOPSIS
-Generate Node.js artifact.
+Generate Node.js artifact..
 
 .DESCRIPTION
 Main script that creates instance of NodeBuilder and builds of Node.js using specified parameters.
