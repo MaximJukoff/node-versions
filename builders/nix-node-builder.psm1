@@ -33,7 +33,7 @@ class NixNodeBuilder : NodeBuilder {
     [uri] GetBinariesUri() {
         <#
         .SYNOPSIS
-        Get base Node.js URI and return complete URI for Node.js installation executable..
+        Get base Node.js URI and return complete URI for Node.js installation executable.
         #>
 
         $base = $this.GetBaseUri()
@@ -47,7 +47,7 @@ class NixNodeBuilder : NodeBuilder {
     [void] CreateInstallationScript() {
         <#
         .SYNOPSIS
-        Create Node.js artifact installation script based on template specified in InstallationTemplateName property..
+        Create Node.js artifact installation script based on template specified in InstallationTemplateName property.
         #>
 
         $installationScriptLocation = New-Item -Path $this.WorkFolderLocation -Name $this.InstallationScriptName -ItemType File
