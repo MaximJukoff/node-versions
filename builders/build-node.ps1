@@ -9,7 +9,7 @@ Generate Node.js artifact..
 Main script that creates instance of NodeBuilder and builds of Node.js using specified parameters..
 
 .PARAMETER Version
-Required parameter. The version with which Node.js will be built.
+Required parameter. The version with which Node.js will be built..
 
 .PARAMETER Architecture
 Optional parameter. The architecture with which Node.js will be built. Using x64 by default.
