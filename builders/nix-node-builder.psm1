@@ -47,7 +47,7 @@ class NixNodeBuilder : NodeBuilder {
     [void] CreateInstallationScript() {
         <#
         .SYNOPSIS
-        Create Node.js artifact installation script based on template specified in InstallationTemplateName property.
+        Create Node.js artifact installation script based on template specified in InstallationTemplateName property..
         #>
 
         $installationScriptLocation = New-Item -Path $this.WorkFolderLocation -Name $this.InstallationScriptName -ItemType File
